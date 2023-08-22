@@ -116,7 +116,7 @@ a {
     background-position: center center;
     background-size: 100% 100%;
     position: relative;
-    height: 330px;
+    height: 350px;
 }
 
 .time {
@@ -221,4 +221,16 @@ a {
 #chars {
     font-size: 20px;
     color: #D62E33;
+}
+
+
+/* media */
+@media screen and (max-width:768px) {
+    .counter {
+height: 450px;
+    }
+
+    .time{
+        margin-bottom: 15px;
+    }
 }
